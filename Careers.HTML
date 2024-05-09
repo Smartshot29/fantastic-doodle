@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial- scale=1.0">
+	<title>Hot Beans Web</title>
+	<link rel="stylesheet" href="./style sheet.css"/> 
+</head>
+<body>
+	<header>
+	<div style="float: left;">
+		<img src="cofee bean.PNG" alt="cofee bean" style="width: 100px; height: auto;">
+		</div>
+		<h1>Hot Beans Web</h1>
+		<nav>
+		<ul>
+		<li><a href="index.html" onclick="checkPage('index.html')">Home</a></li>
+        <li><a href="about.html" onclick="checkPage('about.html')">About Us</a></li>
+        <li><a href="careers.html" onclick="checkPage('careers.html')">careers</a></li>
+        <li><a href="contact.html" onclick="checkPage('contact.html')">Contact</a></li>
+		<li><a href="Employees.html" onclick="checkPage('Employees.html')">Employees</a></li>
+
+		</ul>
+		</nav>
+		</header>
+		
+		<main class="flex-container">
+			<section class="flex-item">
+			<h2>Section 1</h2>
+			<p> <img src="web development poster.jpg" alt="" style="width: 600px; height: auto;" class="center"> </p>
+			</section>
+			<section class="flex-item">
+			<h2>Job opportunitys at Hot Beans Web</h2>
+			<p>Currently, Hot Beans Web is actively seeking talented individuals to join our dynamic team and contribute to our innovative projects. We have a range of job positions available across various departments, including web development, design, project management, and digital marketing. As we continue to expand our global operations, we are looking for motivated individuals who are passionate about pushing the boundaries of web technology and creativity. At Hot Beans Web, we value collaboration, creativity, and a commitment to excellence, and we offer a stimulating work environment where employees can grow professionally and make a meaningful impact. If you are looking to join a forward-thinking company that values talent and embraces innovation, we encourage you to explore our current job openings and consider becoming part of the Hot Beans Web team.</p>
+			</section>
+			</main>
+			
+			<main class="flex-container">
+			<section class="flex-item">
+			<h2>Application form</h2>
+			<p> <form
+  action="https://formspree.io/f/xnqewngg"
+  method="POST"
+>
+  </label>
+  <label for="fname">First Name</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  </label>
+  <label for="fname">Last Name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  </label>
+  <label for="fname">Email adress:</label><br>
+  <input type="text" id="eaddress" name="eaddress"><br>
+  </label>
+  <label for="fname">Phone number:</label><br>
+  <input type="text" id="phnumber" name="phnumber"><br>
+  </label>
+  <label for="fname">Address:</label><br>
+  <input type="text" id="address" name="address"><br>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form> </p>
+			</section>
+			
+			</main>
+			
+			
+		
+		
+		<script> function checkPage(page) { if (window.location.href.endsWith(page)) { alert("You are already on this page."); event.preventDefault(); // Prevents the default behavior of the link } } </script>
+
+
+	<footer>
+		<div class="footer-content">
+		<div class="footer-info">
+			<h3>Contact Information</h3>
+			<p>Email:  HotBeansWeb@gmail.com </p>
+			<p>Phone: (123) 456-7890</p>
+			<p>Address: </p>
+		</div>
+		<div class="social-media">	
+		<h3>Connect With Us</h3>
+		<a href="https://en-gb.facebook.com/" class="social-icon"><img src="facebook.jpg" alt="facebook" width="100" height="auto"></a>
+		<a href="https://www.instagram.com/" class="social-icon"><img src="instagram.jpg" alt="instagram" width="100" height="auto"></a>
+		<a href="https://twitter.com/?lang=en" class="social-icon"><img src="x.png" alt="x" width="100" height="auto"></a>
+		</div>
+		</div>
+		</footer>
+	
+
+
+
+
+
+
+</body>
+</html>
+
+	
